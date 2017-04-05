@@ -20,7 +20,7 @@ default auto
 
 label auto
     kernel /linux
-    append auto=true url=http://dicsus.github.io/autoinstall/ubuntu.cfg interface=auto netcfg/dhcp_timeout=60 keyboard-configuration/xkb-keymap=en priority=critical vga=788 initrd=/initrd.gz --- quiet
+    append auto=true url=http://192.168.1.119/autoinstall/ubuntu.cfg interface=auto netcfg/dhcp_timeout=60 keyboard-configuration/xkb-keymap=en priority=critical vga=788 initrd=/initrd.gz --- quiet
 EOF
 
 cd ..
